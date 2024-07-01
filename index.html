@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokémon Pokédex</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f2f2f2;
+                color: #333;
+                text-align: center;
+            }
+            .pokedex {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .pokemon-card {
+                background-color: #fff;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                margin: 10px;
+                padding: 20px;
+                width: 200px;
+                transition: transform 0.3s;
+            }
+            .pokemon-card:hover {
+                transform: scale(1.05);
+            }
+            .pokemon-card img {
+                width: 100px;
+                height: 100px;
+            }
+            .pokemon-name {
+                font-size: 1.5em;
+                margin: 10px 0;
+            }
+            .pokemon-type {
+                font-size: 1em;
+                margin: 5px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Pokémon Pokédex</h1>
+        <div class="pokedex">
+            <!-- Pokémon 1 -->
+            <div class="pokemon-card">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Bulbasaur">
+                <div class="pokemon-name">Bulbasaur</div>
+                <div class="pokemon-type">Type: Grass/Poison</div>
+            </div>
+            <!-- Pokémon 2 -->
+            <div class="pokemon-card">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" alt="Charmander">
+                <div class="pokemon-name">Charmander</div>
+                <div class="pokemon-type">Type: Fire</div>
+            </div>
+            <!-- Pokémon 3 -->
+            <div class="pokemon-card">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png" alt="Squirtle">
+                <div class="pokemon-name">Squirtle</div>
+                <div class="pokemon-type">Type: Water</div>
+            </div>
+            <!-- Add more Pokémon cards here -->
+        </div>
+    </body>
+    </html>
