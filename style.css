@@ -16,6 +16,11 @@ h1 {
     font-size: 45px;
 }
 
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
 #pokedex {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -50,6 +55,19 @@ h1 {
 
 .card-image {
     height: 180px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.footer-container {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
 }
 
 @keyframes bounce {
