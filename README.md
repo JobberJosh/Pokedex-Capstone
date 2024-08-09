@@ -6,8 +6,8 @@ The features I used in this website include:
 
 1.) Pulled data from PokeAPI to display all of the information you see on the page.
 
-2.) Use of arrays to store and retrieve information that is displayed on my page.
+2.) Use of arrays to store and retrieve information that is displayed on my page. (All 150 Pokemon are an array)
 
-3.) 
+3.) Analyze data that is stored in arrays and display information about it on my page. (Pokemon picture & type)
 
 No special requirements are required to run my site! Just clone the repository and enjoy!
